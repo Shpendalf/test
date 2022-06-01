@@ -1,0 +1,13 @@
+.header__left-block{
+    display:flex;
+    flex-direction:row;
+    column-gap:100px;
+    row-gap:0px;
+}
+
+@media screen and (max-width:1440px){
+    .header__left-block{
+        column-gap: 12.5px;
+    }
+}
+

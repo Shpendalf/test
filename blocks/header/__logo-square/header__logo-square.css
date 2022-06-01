@@ -1,0 +1,11 @@
+.header__logo-square{
+    display:flex;
+    width:210px;
+    height:47px;
+    background:linear-gradient(to right, #00aedc, #008eb8) ;
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+
+    
+}
