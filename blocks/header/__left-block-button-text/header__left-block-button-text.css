@@ -1,11 +1,12 @@
-.header__left-block-button-text{
-    display:flex;
-    color:white;
-font-size:18px;
-line-height:18px;
-font-weight:bold;
-text-align:center;
-padding-top:10px;
-margin:0 0;
-column-gap:10px;
+.header__left-block-button-text {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 0;
+    column-gap: 10px;
 }

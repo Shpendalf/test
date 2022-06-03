@@ -1,0 +1,12 @@
+.header__buttons-wrapper{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    gap:10px;
+    margin-top:30px;
+    margin-bottom:0px;
+    padding:0 0;
+}

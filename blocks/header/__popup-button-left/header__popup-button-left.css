@@ -1,0 +1,21 @@
+.header__popup-button-left{
+display: flex;
+justify-content: center;
+align-items:center;
+text-align:center;
+width: 79px;
+height: 44px;
+background: linear-gradient(to left, #FF5F13, #FF8B04);
+border-radius: 25px;
+border:none;
+text-align:center;
+color:white;
+font-size:16px;
+line-height:18px;
+font-weight:bold;
+letter-spacing: 0.5px;
+}
+
+.header__popup-button-left:hover{
+    background: linear-gradient(to left, #FF8B04 ,#FF5F13);
+}

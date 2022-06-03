@@ -1,0 +1,5 @@
+.lead__title_underline{
+    text-decoration:orange underline solid 8px; 
+    text-decoration-skip-ink:none;
+    text-underline-offset:-3px;
+}

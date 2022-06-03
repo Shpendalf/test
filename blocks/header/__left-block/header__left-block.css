@@ -1,13 +1,15 @@
 .header__left-block{
     display:flex;
     flex-direction:row;
-    column-gap:100px;
+    align-items:center;
+    column-gap:5.74vw;
     row-gap:0px;
 }
 
-@media screen and (max-width:1440px){
-    .header__left-block{
-        column-gap: 12.5px;
-    }
-}
 
+@media  screen and (min-width:1740px;) {
+    .header__lef-block{
+            column-gap:100px;
+    
+}
+}

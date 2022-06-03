@@ -1,0 +1,10 @@
+.swiper-title{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding-bottom:20px;
+    font-weight:bold;
+    font-size:16px;
+}

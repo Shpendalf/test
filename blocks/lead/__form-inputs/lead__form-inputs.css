@@ -1,0 +1,9 @@
+.lead__form-inputs{
+    display:flex;
+    flex-direction:row;
+    column-gap:20px;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:20px;
+}

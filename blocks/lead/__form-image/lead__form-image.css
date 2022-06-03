@@ -1,0 +1,12 @@
+.lead__form-image{
+    margin-top:50px;
+    padding-top:78px;
+    padding-right:710px;
+    position:absolute;
+   
+    background-image: url(../../../images/arrow.png)  ;
+    background-repeat:no-repeat;
+    background-position-x:right;
+    background-size:75px 78px;
+    z-index:0;
+}

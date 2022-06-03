@@ -1,0 +1,12 @@
+.lead__nav-accent{
+    padding-left:75px;
+    padding-right:75px;
+    margin:0 0;
+    padding-top:0;
+    padding-bottom:0;
+    color:white;
+    
+    line-height:50px;
+    font-weight:600;
+    font-size:28px;
+}

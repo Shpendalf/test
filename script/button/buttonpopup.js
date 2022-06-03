@@ -1,5 +1,4 @@
-function myFunction(){
-    var popup = document.getElementById("buttonpopup");
+function myFunction() {
+    var popup = document.getElementById("popupwindow");
     popup.classList.toggle("show");
-    
-}
+  }

@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Тестовое задание Желтов</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -21,40 +22,118 @@
                 <button class="popup" onclick="myFunction()">
                     <p class="header__left-block-button-text">Вологда <img src='./images/arrow small.png'
                             class="header__button-image"></p>
-                    <div class=".popup-content" id="buttonpopup">
-                        <p>test</p>
+                    <div class="popuptext" id="popupwindow">
+                        <p class="header__popup-title">Ваш город - <span
+                                class="header__popup-title header__popup-title_accent">Вологда</span></p>
+                        <div class="header__buttons-wrapper">
+                            <div class="header__popup-button-left">Да</div>
+                            <div class="header__popup-button-right">Нет, другой</div>
+                        </div>
                     </div>
                 </button>
             </div>
             <div class="header__right-block">
                 <p class="header__right-block-adress">Зосимовская 9, офис 3</p>
                 <a class="header__right-block-phone" href="#">8 (8172) 22-22-22</a>
-                <a class="header__right-block-social-logo"><img src="./images/whats__logo.png"></a>
-                <div class="header__call-button">
-                    <p class="header__call-button-text">Заказать звонок</p>
-                </div>
+                <a class="header__right-block-social" href="#"><img src="./images/whats__logo.png"
+                        class="header__right-block-social-logo" alt="ватцап лого"></a>
+                <a class="header__call-button" href="#">
+                    Заказать звонок
+                </a>
             </div>
-            <script>
-                <script>
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("buttonpopup");
-  popup.classList.toggle("show");
-}
-</script>
-            </script>
         </header>
         <main>
             <section class="lead">
+                <nav class="lead__nav">
+                    <a href="#" class="lead__link">Услуги </a>
+                    <p class=" lead__nav-accent">&bull;</p>
+                    <a href="#" class="lead__link">Цены </a>
+                    <p class=" lead__nav-accent">&bull;</p>
+                    <a href="#" class="lead__link">Документы </a>
+                    <p class=" lead__nav-accent">&bull;</p>
+
+                    <a href="#" class="lead__link">Порядок процедуры </a>
+                </nav>
+                <div class="lead__background">
+                    <div class="lead__content">
+                        <p class="lead__info-title">Поможем оформить изменения ТС в ГИБДД</p>
+                        <h1 class="lead__title"><span class="lead__title_underline">Регистрация переоборудований
+                            </span>автомобилей<span class=" lead__title lead__title_accent"> в Вологде</span></h1>
+
+
+                        <div class="lead__form">
+                            <img class="lead__form-image">
+                            <p class="lead__phone-text">Уже внесли изменения в авто и нужно срочно их зарегистрировать?
+                                Мы сможем помочь!
+
+                            </p>
+                            <div class="lead__form-inputs">
+                                <div class="lead__input-square"> <input type="text" class="lead__input"
+                                        placeholder="+7 (___) ___-__-__" data-slots="_"></div>
+                                <div class="lead__input-button"> Оставить заявку
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="lead__services">
+                            <div class="lead__services-card">
+                                <img src="./images/Shieldanddoc.png" class="lead__card-img" alt="договор">
+                                Договор со 100% гарантией результата
+                            </div>
+                            <div class="lead__services-card">
+                                <img src="./images/handlogo.png" class="lead__card-img"
+                                    alt="Примитивные устройства ввода">
+                                Вносим 470+ видов изменений в ТС
+                            </div>
+                            <div class="lead__services-card"> <img src="./images/handshake.png" class="lead__card-img"
+                                    alt="рукопожатие">
+                                Регистрируем «под&nbsp;ключ»</div>
+                            <div class="lead__services-card"> <img src="./images/cars.png" class="lead__card-img"
+                                    alt="Жигули">
+                                Все категории транспортных средств</div>
+                        </div>
+
+                    </div>
+                </div>
+
 
 
             </section>
-            <section class="services">
 
+            <section class="info">
+                <h2 class="info__title"><span class=" info__title info__title_accent">Чаще всего</span> регистрируют
+                    изменения</h2>
+                  
+                <div class="slide-container swiper">
+              
+               
+                    
+                  
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"><div class="swiper-title">Оформлено<div class="swiper-count">17 000 раз</div></div><div class="swiper-card"><img src="./images/slider-vedro.jpg" alt="Нива" class="swiper__image">Внедорожный тюнинг: регистрация того, что ваша Нива почему-то еще на ходу.</div></div>
+                        <div class="swiper-slide"><div class="swiper-title">Оформлено<div class="swiper-count">6000 раз</div></div><div class="swiper-card"><img src="./images/slider seats.jpg" alt="седушки" class="swiper__image"> Смена категории ТС (D>B, D>C)</div></div>
+                        <div class="swiper-slide"><div class="swiper-title">Оформлено<div class="swiper-count">12000 раз</div></div><div class="swiper-card"><img src="./images/slider-motor.jpg" alt="мотор" class="swiper__image"> Замена или СВАП двигателя любой мощности</div></div>
+                        <div class="swiper-slide"><div class="swiper-title">Оформлено<div class="swiper-count">600 раз</div></div><div class="swiper-card"><img src="./images/slider-cran.jpg" alt="кран" class="swiper__image">Установка КМУ (ГМУ) крана манипулятора</div></div>
+                        <div class="swiper-slide"><div class="swiper-title">Оформлено<div class="swiper-count">9000 раз</div></div><div class="swiper-card"><img src="./images/dbz.png" alt="Больше 9000" class="swiper__image">Регистрация повышения вашей мощности</div></div>
+
+                    </div>
+                    <div class="swiper-button-prev"><img src="./images/chev_b.png" ></div>
+                    <div class="swiper-button-next"><img src="./images/chev_a.png" ></div>
+
+                </div>
             </section>
         </main>
     </div>
+    <script src="./script/button/buttonpopup.js">
 
+    </script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script/carousel/carousel.js"></script>
 </body>
 <html>
 

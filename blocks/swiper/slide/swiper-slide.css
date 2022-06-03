@@ -1,0 +1,8 @@
+.swiper-slide{
+    display:flex;
+    flex-direction:column;
+    width:200px;
+    overflow:visible;
+   
+
+}

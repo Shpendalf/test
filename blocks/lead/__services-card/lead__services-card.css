@@ -1,0 +1,13 @@
+.lead__services-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-items:center;
+    color:black;
+    font-weight:bold;
+    text-align:center;
+    padding-bottom:30px;
+    
+  
+
+}

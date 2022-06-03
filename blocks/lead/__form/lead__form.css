@@ -1,0 +1,10 @@
+.lead__form{
+    margin-top:60px;
+    width:737px;
+    height:224px;
+    background-image: linear-gradient(to right, #00aedc, #008eb8);
+    z-index:1;
+ 
+    border-radius: 20px;
+
+}

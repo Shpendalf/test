@@ -1,0 +1,20 @@
+.lead__card-img{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    margin-top:30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25), 0 0 0 rgba(0,0,0,0.30);
+    object-fit: scale-down;
+    object-position: center;
+    margin-bottom:20px;
+    padding:0 0;
+   
+   
+}
+
+.lead__card-img:hover{
+    transform:scale(1.1);
+}
+.lead__card-img:first-child{
+    padding-right:5px;
+}

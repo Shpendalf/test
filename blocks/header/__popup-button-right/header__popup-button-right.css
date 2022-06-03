@@ -1,0 +1,20 @@
+.header__popup-button-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 154px;
+    height: 42px;
+    border-radius: 25px;
+    background-color: white;
+    color: orange;
+    font-size: 16px;
+    line-height: 20px;
+    border:solid orange 2px;
+    font-weight:bold;
+}
+ 
+.header__popup-button-right:hover{
+    background-color:orange;
+    color:white;
+}

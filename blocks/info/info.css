@@ -1,0 +1,16 @@
+.info{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#f5faff;
+    padding-top:0px;
+    padding-bottom:100px;
+    overflow:visible;
+}
+@media screen and (max-width:950px){
+    .info{
+    padding-top:224px;
+    
+    }
+    
+}

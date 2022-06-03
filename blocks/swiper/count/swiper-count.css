@@ -1,0 +1,12 @@
+.swiper-count{
+    border-radius:30px;
+    background: linear-gradient(to left, #FF5F13, #FF8B04);
+    width:100px;
+    height:44px;
+    color:white;
+    text-align:center;
+    line-height:44px;
+}
+.swiper-count:hover{
+    background: linear-gradient(to right, #FF5F13, #FF8B04);
+}
